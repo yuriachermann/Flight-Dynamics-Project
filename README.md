@@ -1,3 +1,4 @@
 # mec-voo
 Trabalho de Mecânica do Vôo
-![alt text](https://github.com/yuriachermann/mec-voo/blob/master/view-wire-iso.jpg?raw=true)
+![Test Image 1](view-wire-iso.png)
+![Test Image 1](view-texture-rear.png)
