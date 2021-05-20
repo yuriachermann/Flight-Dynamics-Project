@@ -15,7 +15,7 @@ y = [Y1, Y2, Y3, Y4, Y5, Y6]
 for Y in y:
     plt.plot(X, Y)
 
-# Y = pot_req(X, 2600)
+# Y = pot_req(X, 2300)
 # plt.plot(X, Y)
 
 plt.xlim([0, 80])

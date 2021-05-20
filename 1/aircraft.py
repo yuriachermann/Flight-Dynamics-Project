@@ -15,7 +15,7 @@ Aw = Am * g  # VANT weight
 S = Aw / WS  # Wing area
 b = np.sqrt(S * AR)  # Span
 
-print("VANT mass =\t\t", Am, "kg")
+print("\nVANT mass =\t\t", Am, "kg")
 print("VANT weight =\t", Aw, "N")
 print("Wing area =\t\t", S, "m²")
-print("Span =\t\t\t", b, "m")
+print("Span =\t\t\t", b, "m\n\n")

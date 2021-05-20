@@ -10,33 +10,33 @@ def rho_imp(h):
 H = 2300 * 3.2808  # Altitude (ft)
 v = 36 * 3.2808  # Velocity (ft/s)
 
-V = 2.96 * 35.3147  # Volume (ft³)
+V = 3.054 * 35.3147  # Volume (ft³)
 d = 6.055  # Density (lb/ft³)
-Sw = 9 * 10.7639  # Wing area (ft²)
+Sw = 8 * 10.7639  # Wing area (ft²)
 Wfw = 110.2311  # Wing fuel weight (lbf)
-ARw = 17.3611  # Wing aspect ratio
+ARw = 18  # Wing aspect ratio
 Vc4 = 0  # Wing sweep angle at 1/4
 q = rho_imp(H) * v**2 * 0.5  # Dynamic pressure (lb/ft s²)
 lbd = 0.8  # Wing tap ratio
-tc = 0.12  # Wing thickness and chord ratio
+tc = 0.14098  # Wing thickness and chord ratio
 nz = 3.8  # Ultimate load factor
 Wo = d * V  # Gross weight (lbf)
 
 Ft = 0  # Tail factor (0=conventional tail, 1=T-tail)
 
-Sht = 1.2 * 10.7639  # Horizontal tail area (ft²)
+Sht = 1.8 * 10.7639  # Horizontal tail area (ft²)
 Vc4ht = 0  # Horizontal tail sweep angle at 1/4
-ARht = 7.5  # Horizontal tail aspect ratio
-lbdHT = 0.33333  # Horizontal tail tap ratio
-lht = 2.2 * 3.2808  # Horizontal tail arm (ft)
+ARht = 8.88888  # Horizontal tail aspect ratio
+lbdHT = 0.5  # Horizontal tail tap ratio
+lht = 3.1 * 3.2808  # Horizontal tail arm (ft)
 
-Svt = 0.6 * 10.7639  # Vertical tail area (ft²)
+Svt = 0.42 * 10.7639  # Vertical tail area (ft²)
 Vc4vt = 0  # Vertical tail sweep angle at 1/4
-ARvt = 3.75  # Vertical tail aspect ratio
+ARvt = 3.42857  # Vertical tail aspect ratio
 
-Sfs = 13.78 * 10.7639  # Fuselage wetted area (ft²)
+Sfs = 14.082 * 10.7639  # Fuselage wetted area (ft²)
 lFS = 6 * 3.2808  # Fuselage length (ft)
-dFS = 0.65 * 3.2808  # Fuselage average depth (ft)
+dFS = 0.75 * 3.2808  # Fuselage average depth (ft)
 Vp = 2.563 * 35.3147 * 0.1  # Pressurized cabin volume (ft³)
 DeltaP = 1  # Differential pressure cabin (psi)
 
