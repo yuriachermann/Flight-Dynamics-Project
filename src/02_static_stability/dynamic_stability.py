@@ -1,6 +1,4 @@
 import numpy as np
-import aircraft
-import weight
 from performance import rho_si
 
 # VANT parameters
